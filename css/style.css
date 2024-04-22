@@ -9,15 +9,8 @@ body{
     margin: 0px;
 }
 
-.main{
-    margin: auto;
-    font-size: 17px;
-    width: 90%;
-    text-align: justify; 
-}
-
 .header{
-    padding: 30px;
+    padding: 34px;
     text-align: center;
     background-image: url("../img/banner.png");
     background-position: center;
@@ -26,17 +19,26 @@ body{
     color: #e25c13;
 }
 
+.main{
+    margin: auto;
+    font-size: 17px;
+    width: 90%;
+    text-align: justify; 
+}
+
+.content{
+    display: flex;
+    background-color: #f7d5bd;
+    opacity: 0.82;
+}
+
 .header h1{
     text-transform: uppercase;
     font-family: Helvetica;
     border-bottom: 1px solid #ffffff;
 }
 
-.content{
-    display: flex;
-    background-color: #f7d5bd;
-    opacity: 0.9;
-}
+
 
 .box{
     padding: 10px;
@@ -49,13 +51,12 @@ body{
 }
 .box img{
     width: 300px;
-    
     margin: auto;
     display: block;
 }
 
 .footer{
-    padding: 20px;
+    padding: 24px;
     text-align: center;
     background-color: #ff6a00;
     color: #ffffff;
@@ -82,14 +83,12 @@ body{
         opacity: 1;
     }
     .box p{
-        padding-right: 30px;
+        padding-right: 34px;
     }
-    .box img{
-        
-        
+            
     }
     .box h2{
         text-align: center;
-        font-size: 30px;
+        font-size: 33px;
     }
 }
